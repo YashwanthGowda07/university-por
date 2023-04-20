@@ -1,0 +1,89 @@
+#my-div {
+  * {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+  }
+  * .h1 {
+    font-size: 28px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .page-title {
+    text-align: center;
+  }
+  .sectionTitle {
+    text-align: center;
+    font-size: 26px;
+  }
+  .uni-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .uniList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .uni-card {
+    margin: 5px;
+    padding: 20px;
+    border: 1px solid rgb(141, 141, 141);
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgb(170, 170, 170);
+    flex-basis: 30%;
+    &-title {
+      font-size: 16px;
+    }
+    &-text {
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+  .search-parms {
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto 30px;
+    border: 1px solid gray;
+    box-shadow: 0 0 5px gray;
+    border-radius: 15px;
+    .search-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    .form-item {
+      margin: 0 0 16px;
+      min-width: 50%;
+      select {
+        width: 100%;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      input,
+      select {
+        width: 100%;
+      }
+    }
+  }
+  .btn {
+    background-color: rgb(57, 100, 219);
+    border: 0;
+    box-shadow: 0 0 2px rgb(57, 100, 219);
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    &:hover {
+      background-color: rgb(20, 65, 190);
+      box-shadow: 0 0 2px rgb(20, 65, 190);
+    }
+  }
+}
